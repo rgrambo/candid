@@ -1,0 +1,24 @@
+<template id="profile-card-template">
+    <div class="profile-card">
+        <div class="profile-image-holder">
+            <input class="profile-image-upload" type="file" style="display: none" />
+            <img class="profile-image" alt="Profile Image" src=""/>
+            <img class="profile-change-image-icon" alt="Change Image Icon" src="images/camera-icon.png" style="display: none;"/>
+        </div>
+        <div class="profile-info-holder outlined">
+            <div class="profile-name-holder">
+                <div class="profile-name"></div>
+                <input class="profile-name" style="display: none;"/>
+            </div>
+            <div class="profile-stats-holder">
+                <ul class="profile-stats" style="display: none;"></ul>
+                <ul class="profile-pro-stats" style="display: none;">
+                    <li><img class="pro-con-icon" src="images/green-check.png"/></li>
+                </ul>
+                <ul class="profile-con-stats" style="display: none;">
+                    <li><img class="pro-con-icon" src="images/yellow-x.png"/></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>
